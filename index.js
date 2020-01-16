@@ -12,7 +12,7 @@ module.exports = app => {
       
   })
     app.on('push', async context => {
-        consol.log(context.payload)
+        return context.github.createComment("commited")
 
     })
 

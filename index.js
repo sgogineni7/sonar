@@ -12,7 +12,7 @@ module.exports = app => {
       
   })
     app.on('push', async context => {
-        return context.github.createComment("commited")
+        return context.github.createComment("commited !!!!")
 
     })
 
